@@ -20,7 +20,7 @@ Thumbs.db
 *.log
 app.log
 response.json
-vacancies/*.json
+vacancies.json
 
 # Кэш Python
 __pycache__/
@@ -36,7 +36,3 @@ htmlcov/
 .pytest_cache
 tests/__pycache__/
 tests/*.pyc
-
-# Локальные конфиги (если появятся)
-config.local.py
-secrets.py
