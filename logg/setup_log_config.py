@@ -6,7 +6,7 @@ from paths import PathsCustom
 
 with open(PathsCustom.logging_config_json, 'r', encoding='utf-8') as f:
     config = json.load(f)
-    print("\nКонфиг успешно загружен:", config, "\n")
+    print("\nКонфиг успешно загружен:\n")
 
 logging.config.dictConfig(config)
 
