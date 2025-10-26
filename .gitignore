@@ -1,0 +1,42 @@
+# Виртуальное окружение
+venv/
+.env
+.venv/
+virtualenv/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# IDE / редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Логи и данные, генерируемые приложением
+*.log
+app.log
+response.json
+vacancies.json
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Тестовые артефакты
+.pytest_cache
+tests/__pycache__/
+tests/*.pyc
+
+# Локальные конфиги (если появятся)
+config.local.py
+secrets.py
