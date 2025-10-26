@@ -20,7 +20,7 @@ Thumbs.db
 *.log
 app.log
 response.json
-vacancies.json
+vacancies/*.json
 
 # Кэш Python
 __pycache__/
